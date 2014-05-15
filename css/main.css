@@ -41,8 +41,9 @@ a:hover   { color: #dfff00; }
 /* Site header */
 
 .site-header {
-	border-top: 5px solid #333;
+	border-top: 5px solid #3B3A3A;
 	min-height: 56px;
+	padding-top: 10px;
 }
 
 .site-title,

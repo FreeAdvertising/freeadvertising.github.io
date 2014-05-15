@@ -2,8 +2,8 @@ h1.logo {
 	text-indent: -9999px;
 	background: url("../images/logo-inverted.png") no-repeat top left;
 	background-size: cover;
-	height: 100px;
-	width: 100px;
+	height: 101px;
+	width: 69px;
 }
 
 .highlight, pre {
@@ -33,6 +33,10 @@ span.tagline {
 	text-transform: uppercase;
 }
 
+.main-nav li {
+	display: inline;
+}
+
 .members li {
 	list-style: none;
 	margin: 0px;
@@ -49,14 +53,14 @@ span.tagline {
 }
 
 .column-2 {
-	width: 45%; /*fallback*/
-	width: -webkit-calc(50% - 10px);
+	width: 50%; /*fallback*/
+/*	width: -webkit-calc(50% - 10px);
 	width: -moz-calc(50% - 10px);
 	width: -o-calc(50% - 10px);
-	width: calc(50% - 10px);
-	margin-right: 0;
+	width: calc(50% - 10px);*/
 	float: left;
 }
+
 
 footer {
 	border-top: 1px solid #3B3A3A;
