@@ -1,0 +1,63 @@
+h1.logo {
+	text-indent: -9999px;
+	background: url("../images/logo-inverted.png") no-repeat top left;
+	background-size: cover;
+	height: 100px;
+	width: 100px;
+}
+
+.highlight, pre {
+	background-color: #333 !important;
+	border-color: #333 !important;
+}
+
+span.tagline {
+	color: #ddd;
+	position: relative;
+	top: -8px;
+	z-index: 1;
+}
+
+.posts li {
+	border-bottom: 2px solid black;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.posts span.post-date {
+	float: right;
+}
+
+.posts .post-link {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.members li {
+	list-style: none;
+	margin: 0px;
+}
+
+.members {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.gh-link {
+	font-size: 0.6em;
+	float: right;
+}
+
+.column-2 {
+	width: 45%; /*fallback*/
+	width: -webkit-calc(50% - 10px);
+	width: -moz-calc(50% - 10px);
+	width: -o-calc(50% - 10px);
+	width: calc(50% - 10px);
+	margin-right: 0;
+	float: left;
+}
+
+footer {
+	border-top: 1px solid #3B3A3A;
+}
