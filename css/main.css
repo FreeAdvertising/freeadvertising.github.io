@@ -49,7 +49,9 @@ a:hover   { color: #dfff00; }
 .site-title,
 .site-title:hover,
 .site-title:visited {
-	display: block;
+	display: inline-block;
+	height: 100%;
+	text-indent: -9999px;
 	color: #333;
 	font-size: 26px;
 	letter-spacing: -1px;
