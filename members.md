@@ -8,7 +8,7 @@ permalink: /members/
 {% for member in site.data.members %}
 	<li>
 		<h2>
-			<a href="{{ member.port_url }}" target="_blank">{{ member.name }}</a>
+			<span class="member-name">{{ member.name }}</span>
 
 			{% if member.github != nil %}
 				<a href="https://github.com/{{ member.github }}" class="gh-link">

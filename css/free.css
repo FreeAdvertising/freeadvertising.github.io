@@ -39,11 +39,22 @@ span.tagline {
 .members li {
 	list-style: none;
 	margin: 0px;
+	border-top: 1px solid #3B3A3A;
+	padding-bottom: 2em;
 }
 
 .members {
 	margin: 0px !important;
 	padding: 0px !important;
+}
+
+.member-name,
+.yellow-title {
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #dfff00;
+	color: black;
+	padding: 3px;
 }
 
 .gh-link {
