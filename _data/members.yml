@@ -1,11 +1,17 @@
-- name: Marynika Lozowska
-  github:
-  blurb: "Marynika’s talents lie behind a unique combination of business and creative savvy. With degrees in business management, marketing, and visual design, she’s an ideal web developer and coder with an appreciation for the dynamic nature of design. In her spare time, Marynika is also a budding photographer with a passion for all things aesthetically pleasing, and admits to being a critical foodie who is always on the hunt for delicious new finds."
-
-- name: Ryan Priebe
-  github: aapis
-  blurb: "As a modern day magician, Ryan’s greatest talents lie in creating something out of nothing. Swooping behind a few screens, he waves his magic mouse, says abracadabra (in HTML) and voila! A seamlessly functioning website, database or gaming product is pulled out of his Toronto Maple Leafs hat. Ryan attended NAIT's DIMD program to refine his tricks into a successful career. Prior to joining FREE, he’s been an integral part of multiple digital teams including Chinook Multimedia. To unplug and recharge his battery he enjoys playing hockey, mountain biking, cooking and frequent visits to Booster Juice."
-
-- name: Chris Harney
-  github: charney1
-  blurb: "He does code and stuff."
+[
+	{
+		"name": "Marynika Lozowska",
+		"github": "",
+		"blurb": "Marynika’s talents lie behind a unique combination of business and creative savvy. With degrees in business management, marketing, and visual design, she’s an ideal web developer and coder with an appreciation for the dynamic nature of design. In her spare time, Marynika is also a budding photographer with a passion for all things aesthetically pleasing, and admits to being a critical foodie who is always on the hunt for delicious new finds."
+	},
+	{
+		"name": "Ryan Priebe",
+		"github": "aapis",
+		"blurb": "As a modern day magician, Ryan’s greatest talents lie in creating something out of nothing. Swooping behind a few screens, he waves his magic mouse, says abracadabra (in HTML) and voila! A seamlessly functioning website, database or gaming product is pulled out of his Toronto Maple Leafs hat. Ryan attended NAIT's DIMD program to refine his tricks into a successful career. Prior to joining FREE, he’s been an integral part of multiple digital teams including Chinook Multimedia. To unplug and recharge his battery he enjoys playing hockey, mountain biking, cooking and frequent visits to Booster Juice."
+	},
+	{
+		"name": "Chris Harney",
+		"github": "charney1",
+		"blurb": "He does code and stuff."
+	},
+]
