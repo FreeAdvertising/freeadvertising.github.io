@@ -2,16 +2,22 @@
 layout: default
 ---
 
-<div class="home">
-	<ul class="posts">
+<article class="home post-content">
+	<header class="post-header">
+		<h1>Projects</h1>
+	</header>
+
+	<ul class="list">
 		{% for post in site.posts %}
 			<li>
-				<!-- <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> -->
-				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-				{% if post.author != nil %}
-					<span class="post-author">By: {{ post.author }}</span>
+				<h2>
+					<a class="post-link yellow-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				</h2>
+
+				{% if post.short_desc %}
+					<p class="short">{{ post.short_desc }}</p>
 				{% endif %}
 			</li>
 		{% endfor %}
 	</ul>
-</div>
+</article>
